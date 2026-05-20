@@ -12,7 +12,7 @@ def load_data(path):
     return df
 
 
-mpg_df_raw = load_data("../data/mpg.csv")
+mpg_df_raw = load_data("data/mpg.csv")
 mpg_df = deepcopy(mpg_df_raw)
 st.title("Introduction to Streamlit")
 st.header("MPG Data Exploration")
